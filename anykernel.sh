@@ -10,8 +10,8 @@ do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=whyred
-device.name2=whyred
+device.name1=begonia
+device.name2=begoniain
 supported.versions=
 supported.patchlevels=
 '; } # end properties
