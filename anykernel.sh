@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Interstellar-kernel by hnkksk
+kernel.string=BarongX-Revenge-kernel by hnkksk
 do.devicecheck=1
 do.modules=0
 do.systemless=1
@@ -50,7 +50,7 @@ if isTimRom; then
 
     ui_print " » Custom ROM recognition: Tim's Signature ";
     ui_print " » Initiating vibration fix deployment "
-    ui_print " » Let The Hunts Begin Stellar Flasher Let's Make It Beast!...";
+    ui_print " » Let The Hunts Begin The Hunt And Make It Beast!...";
 
     split_boot;
     patch_cmdline initcall_blacklist initcall_blacklist=
@@ -72,7 +72,7 @@ elif isDerp; then
     rm -rf $ramdisk/overlay.d;
 
     ui_print " » Custom ROM recognition: DerpFest's detected ";
-    ui_print " » Let The Hunts Begin Stellar Flasher Let's Make It Beast!...";
+    ui_print " » Let The Hunts Begin The Hunt And Let's Make It Beast!...";
 
     dump_boot;
     write_boot;
@@ -91,7 +91,7 @@ else
     rm -rf $ramdisk/overlay;
     rm -rf $ramdisk/overlay.d;
 
-    ui_print " » Let The Hunts Begin Stellar Flasher Let's Make It Beast!...";
+    ui_print " » Let The Hunts Begin Stellar The Hunt And Let's Make It Beast!...";
 
     dump_boot;
     write_boot;
