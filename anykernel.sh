@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=BarongX-Revenge-kernel by hnkksk
+kernel.string=走る-Thunderbird-kernel by hnkksk
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=begonia
-device.name2=begoniain
+device.name1=vayu
+device.name2=bhima
 supported.versions=
 supported.patchlevels=
 '; } # end properties
