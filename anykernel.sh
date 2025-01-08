@@ -91,7 +91,7 @@ else
     rm -rf $ramdisk/overlay;
     rm -rf $ramdisk/overlay.d;
 
-    ui_print " » Let The Hunts Begin Stellar The Hunt And Let's Make It Beast!...";
+    ui_print " » Shinning Like A Stars!...";
 
     dump_boot;
     write_boot;
