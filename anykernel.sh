@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=走る-Thunderbird-kernel by hnkksk
+kernel.string=Antares-4.14.336-begonia-kernel by hnkksk
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=vayu
-device.name2=bhima
+device.name1=begonia
+device.name2=begoniain
 supported.versions=
 supported.patchlevels=
 '; } # end properties
@@ -50,7 +50,7 @@ if isTimRom; then
 
     ui_print " » Custom ROM recognition: Tim's Signature ";
     ui_print " » Initiating vibration fix deployment "
-    ui_print " » Let The Hunts Begin The Hunt And Make It Beast!...";
+    ui_print " » Shining Like A Stars!...";
 
     split_boot;
     patch_cmdline initcall_blacklist initcall_blacklist=
@@ -72,7 +72,7 @@ elif isDerp; then
     rm -rf $ramdisk/overlay.d;
 
     ui_print " » Custom ROM recognition: DerpFest's detected ";
-    ui_print " » Let The Hunts Begin The Hunt And Let's Make It Beast!...";
+    ui_print " » Shining Like A Stars...";
 
     dump_boot;
     write_boot;
