@@ -4,14 +4,14 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Antares-4.14.336-begonia-kernel by hnkksk
+kernel.string=Kizuna-chime
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=1
-device.name1=begonia
-device.name2=begoniain
+device.name1=chime
+device.name2=juice
 supported.versions=
 supported.patchlevels=
 '; } # end properties
