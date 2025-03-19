@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=Kizuna-chime
+kernel.string=Jynx-4.14.336
 do.devicecheck=1
 do.modules=0
 do.systemless=1
